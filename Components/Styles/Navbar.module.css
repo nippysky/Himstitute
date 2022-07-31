@@ -1,0 +1,26 @@
+.navRow {
+    width: 100%;
+    padding: 1rem 4rem;
+    display: flex;
+}
+
+.navLogo,
+.navButton {
+    width: 15%;
+}
+
+.navLinks {
+    width: 70%;
+    padding: 0.65rem 0;
+    text-align: center;
+}
+
+.menuItems {
+    width: 10%;
+    padding: 0 1.2rem;
+    font-weight: 545;
+}
+
+.menuItems:active {
+    text-decoration: underline;
+}
