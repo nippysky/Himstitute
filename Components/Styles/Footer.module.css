@@ -1,0 +1,26 @@
+.section {
+    background-color: black;
+    color: white;
+    padding: 4rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 33.3%
+}
+
+.footLastRow {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+}
+
+.footCopyright,
+.footSubscribe {
+    width: 50%;
+}
