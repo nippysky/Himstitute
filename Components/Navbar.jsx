@@ -29,12 +29,13 @@ export default function Navbar() {
         <span className={classes.menuItems}>
           <Link href="/careers">Careers</Link>
         </span>
-      </div>
 
-      {/* Navbar Button */}
-      <div style={{ paddingTop: "0.2rem" }} className={classes.navButton}>
-        <div>
-          <button style={{ float: "right" }} className="btnPrimary">
+        {/* Navbar Button */}
+        <div style={{ float: "right", marginTop: "-0.5rem" }}>
+          <span className={classes.menuItems}>
+            <Link href="/login">Login</Link>
+          </span>
+          <button className="btnPrimary">
             <Link href="/">Register</Link>
           </button>
         </div>

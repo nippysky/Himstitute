@@ -1,0 +1,73 @@
+.section {
+    padding: 4rem;
+    background-color: #E9F4EC;
+}
+
+.headDiv {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+    margin: 4rem 0;
+}
+
+.column {
+    width: 25%;
+}
+
+.card {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.mainImage {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.aurthor {
+    text-align: center;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.small {
+    position: relative;
+    bottom: 5rem;
+    font-size: 12px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.small h2 {
+    font-size: 16px;
+}
+
+.small small {
+    font-size: 12px;
+    color: #1AD84F;
+}
+
+.text {
+    padding: 1rem;
+    font-size: 14px;
+    position: relative;
+    bottom: 6.5rem;
+}
+
+.readMore {
+    padding: 1rem;
+    font-size: 14px;
+    margin: -9rem 0 0 0;
+}
+
+.btn {
+    text-align: center;
+}

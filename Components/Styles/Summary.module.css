@@ -1,0 +1,27 @@
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+    text-align: justify;
+}
+
+.coluumn {
+    width: 33.3%;
+}
+
+.sumRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15rem;
+    margin: 7rem 0;
+}
+
+.sumColumn {
+    width: 50%;
+}
+
+.sumColumn p {
+    text-align: justify;
+}

@@ -1,0 +1,18 @@
+.section {
+    padding: 4rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10rem;
+}
+
+.column {
+    width: 50%;
+}
+
+.column p {
+    text-align: justify;
+}

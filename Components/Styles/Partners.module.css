@@ -1,0 +1,19 @@
+.section {
+    padding: 4rem;
+}
+
+.row {
+    margin: 4rem 0;
+    padding: 0 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 16%;
+}
+
+.headDiv {
+    text-align: center;
+}

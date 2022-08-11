@@ -4,21 +4,23 @@
     display: flex;
 }
 
-.navLogo,
-.navButton {
-    width: 15%;
+.navLogo {
+    width: 10%;
+    margin-top: 0.7rem;
 }
 
 .navLinks {
-    width: 70%;
-    padding: 0.65rem 0;
-    text-align: center;
+    width: 90%;
+    padding-top: 0.55rem;
+    margin: 0 0 0 5rem;
+
 }
 
 .menuItems {
     width: 10%;
     padding: 0 1.2rem;
-    font-weight: 545;
+    font-size: 0.85rem;
+    font-weight: 500;
 }
 
 .menuItems:active {

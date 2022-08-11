@@ -1,0 +1,22 @@
+.section {
+    padding: 4rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.column {
+    width: 50%;
+}
+
+.div {
+    margin: 2rem 0;
+}
+
+.icon {
+    position: relative;
+    top: 0.65rem;
+    margin: 0 1.5rem 0 0;
+}

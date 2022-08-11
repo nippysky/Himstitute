@@ -1,0 +1,15 @@
+.section {
+    padding: 4rem;
+    text-align: center;
+}
+
+.row {
+    margin: 4rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 20%;
+}
