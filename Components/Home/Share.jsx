@@ -1,5 +1,5 @@
 import classes from "../Styles/Share.module.css";
-import Link from "next/link";
+import ButtonWhite from "../ButtonWhite";
 import Image from "next/image";
 
 export default function Share() {
@@ -20,9 +20,7 @@ export default function Share() {
             sint.
           </p>
           <div style={{ marginTop: "2rem" }}>
-            <button className="btnPrimary">
-              <Link href="/">Explore Now</Link>
-            </button>
+            <ButtonWhite link="/">Explore Now</ButtonWhite>
           </div>
         </div>
 

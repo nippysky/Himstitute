@@ -1,6 +1,6 @@
 import classes from "../Styles/JoinUs.module.css";
 import Image from "next/image";
-import Link from "next/link";
+import ButtonWhite from "../ButtonWhite";
 
 export default function JoinUs() {
   return (
@@ -33,9 +33,7 @@ export default function JoinUs() {
             mollit non deserunt ullamco est sit aliqua dolor do amet sint.
           </p>
           <div style={{ marginTop: "2rem" }}>
-            <button className="btnPrimary">
-              <Link href="/">Enrol Now</Link>
-            </button>
+            <ButtonWhite link="/">Enrol Now</ButtonWhite>
           </div>
         </div>
       </div>

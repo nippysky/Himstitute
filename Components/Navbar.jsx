@@ -1,5 +1,6 @@
 import classes from "./Styles/Navbar.module.css";
 import Link from "next/link";
+import ButtonWhite from "./ButtonWhite";
 
 export default function Navbar() {
   return (
@@ -35,9 +36,7 @@ export default function Navbar() {
           <span className={classes.menuItems}>
             <Link href="/login">Login</Link>
           </span>
-          <button className="btnPrimary">
-            <Link href="/">Register</Link>
-          </button>
+          <ButtonWhite link="/"> Register</ButtonWhite>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import ButtonWhite from "../ButtonWhite";
 
 export default function SummaryDetails(props) {
   const { image, title, details, link } = props;
@@ -15,9 +15,7 @@ export default function SummaryDetails(props) {
         <p>{details}</p>
       </div>
       <div>
-        <button className="btnPrimary">
-          <Link href={link}>Explore Now</Link>
-        </button>
+        <ButtonWhite link={link}>Explore Now</ButtonWhite>
       </div>
     </div>
   );

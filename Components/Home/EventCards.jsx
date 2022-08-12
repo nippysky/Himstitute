@@ -1,6 +1,6 @@
 import classes from "../Styles/UpcomingEvents.module.css";
 import Image from "next/image";
-import Link from "next/link";
+import ButtonWhite from "../ButtonWhite";
 import { BiCalendar, BiAlarm, BiMap } from "react-icons/bi";
 
 export default function EventCards(props) {
@@ -57,9 +57,7 @@ export default function EventCards(props) {
 
         {/* button */}
         <div>
-          <button className="btnPrimary">
-            <Link href={link}>Learn More</Link>
-          </button>
+          <ButtonWhite link={link}>Learn More</ButtonWhite>
         </div>
       </div>
     </div>

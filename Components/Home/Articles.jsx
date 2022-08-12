@@ -1,6 +1,6 @@
 import classes from "../Styles/Articles.module.css";
 import ArticleCard from "./ArticleCard";
-import Link from "next/link";
+import ButtonWhite from "../ButtonWhite";
 
 export default function Articles() {
   return (
@@ -73,9 +73,7 @@ export default function Articles() {
       </div>
 
       <div className={classes.btn}>
-        <button className="btnPrimary">
-          <Link href="/">View All Articles</Link>
-        </button>
+        <ButtonWhite link="/">View All Articles</ButtonWhite>
       </div>
     </section>
   );

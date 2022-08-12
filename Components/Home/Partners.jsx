@@ -1,6 +1,6 @@
 import classes from "../Styles/Partners.module.css";
 import Image from "next/image";
-import Link from "next/link";
+import ButtonWhite from "../ButtonWhite";
 
 export default function Partners() {
   return (
@@ -125,9 +125,7 @@ export default function Partners() {
       </div>
 
       <div style={{ marginTop: "2rem", textAlign: "center" }}>
-        <button className="btnPrimary">
-          <Link href="/">Partner With Us</Link>
-        </button>
+        <ButtonWhite link="/">Partner With Us</ButtonWhite>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 import classes from "../Styles/Study.module.css";
 import Image from "next/image";
-import Link from "next/link";
+import ButtonWhite from "../ButtonWhite";
 
 export default function Study() {
   return (
@@ -14,9 +14,7 @@ export default function Study() {
           height={550}
         />
         <div>
-          <button className="btnPrimary">
-            <Link href="/">Explore Now</Link>
-          </button>
+          <ButtonWhite link="/">Explore Now</ButtonWhite>
         </div>
       </div>
     </section>

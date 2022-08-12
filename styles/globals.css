@@ -42,21 +42,6 @@ div {
   font-size: 1.1rem;
 }
 
-.btnPrimary {
-  padding: 0.65rem 2rem;
-  color: #1AD84F;
-  background-color: white;
-  border: 1px solid #1AD84F;
-  border-radius: 5px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.07);
-  align-items: center;
-  font-weight: 550;
-}
-
-.btnPrimary:hover {
-  color: white;
-  background-color: #1AD84F;
-}
 
 .custom-shape-divider-top-1659705770 {
   position: absolute;
