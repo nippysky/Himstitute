@@ -77,3 +77,9 @@ div {
 .custom-shape-divider-top-1659705770 .shape-fill {
   fill: #FFFFFF;
 }
+
+.carousel .control-dots .dot.selected {
+  background-color: #1AD84F;
+  width: 1rem;
+  border-radius: 1rem;
+}

@@ -23,6 +23,8 @@
     font-weight: 500;
 }
 
-.menuItems:active {
+.menuItems:active,
+.menuItems:hover {
     text-decoration: underline;
+    color: #1AD84F;
 }
