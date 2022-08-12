@@ -70,7 +70,7 @@ export default function Partners() {
       <div className={classes.row}>
         <div className={classes.column}>
           <Image
-            src="/images/homepage/partners/Starbucks.svg"
+            src="/images/homepage/partners/StarBucks.svg"
             alt="Starbucks"
             height={100}
             width={100}
