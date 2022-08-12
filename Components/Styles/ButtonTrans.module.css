@@ -1,0 +1,15 @@
+.btn {
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: #1AD84F;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background-repeat: space;
+    border-radius: 5px;
+}
