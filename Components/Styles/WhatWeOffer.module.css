@@ -1,0 +1,23 @@
+.section {
+    padding: 0 4rem;
+}
+
+.offer h1 {
+    text-align: center;
+}
+
+.row {
+    margin: 5rem 0;
+    width: 100%;
+    display: flex;
+    gap: 8rem;
+
+}
+
+.column {
+    width: 50%;
+}
+
+.column p {
+    text-align: justify;
+}

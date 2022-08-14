@@ -1,0 +1,40 @@
+.section {
+    position: relative;
+    background-color: #E9F4EC;
+    padding: 4rem;
+}
+
+.missVis {
+    width: 100%;
+    display: flex;
+    gap: 8rem;
+    margin: 4rem 0;
+}
+
+.mission,
+.vision {
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.values {
+    width: 100%;
+    display: flex;
+    margin: 4rem 0;
+    gap: 2rem;
+}
+
+.valuesHead h1 {
+    text-align: center;
+}
+
+
+
+.valuesDiv {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+}

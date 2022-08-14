@@ -32,7 +32,7 @@ export default function Navbar() {
         </span>
 
         {/* Navbar Button */}
-        <div style={{ float: "right", marginTop: "-0.5rem" }}>
+        <div style={{ float: "right", marginTop: "-0.3rem" }}>
           <span className={classes.menuItems}>
             <Link href="/login">Login</Link>
           </span>

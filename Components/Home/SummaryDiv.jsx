@@ -28,7 +28,7 @@ export default function SummaryDiv() {
         <Image
           src="/images/homepage/Himstitute_Doctor.png"
           alt="A Doctor"
-          height={500}
+          height={400}
           width={500}
           priority
         />

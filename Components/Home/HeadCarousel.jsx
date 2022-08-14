@@ -9,11 +9,12 @@ export default class NextJsCarousel extends Component {
       <Carousel
         autoFocus={true}
         autoPlay={true}
-        interval={7000}
-        infiniteLoop="true"
+        interval={5000}
+        infiniteLoop={true}
         showStatus={false}
         showThumbs={false}
         showArrows={false}
+        stopOnHover={false}
       >
         <div>
           <img src="/images/homepage/carousel/1.png" alt="image1" />

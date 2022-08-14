@@ -1,5 +1,4 @@
 import Image from "next/image";
-import classes from "../Styles/Mentors.module.css";
 
 export default function MentorDetails(props) {
   const { image, name, affiliation, discipline, linkedin } = props;

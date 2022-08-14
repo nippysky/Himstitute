@@ -11,7 +11,7 @@ export default function JoinUs() {
             src="/images/homepage/Himstitute_Joinus.png"
             alt="Join Us"
             width={500}
-            height={500}
+            height={400}
           />
         </div>
         <div className={classes.column}>
