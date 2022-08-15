@@ -20,7 +20,39 @@
     display: flex;
 }
 
-.footCopyright,
+.footCopyright {
+    width: 50%;
+}
+
+.footCopyright p {
+    float: right;
+}
+
 .footSubscribe {
     width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .footLastRow {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footCopyright,
+    .footSubscribe {
+        width: 100%;
+    }
+
+    .footCopyright p {
+        float: none;
+    }
 }

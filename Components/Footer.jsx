@@ -62,9 +62,7 @@ export default function Footer() {
         </div>
 
         <div className={classes.footCopyright}>
-          <p style={{ float: "right" }}>
-            © HIMSTITUTE 2022. All Rights Reserved
-          </p>
+          <p>© HIMSTITUTE 2022. All Rights Reserved</p>
         </div>
       </div>
     </section>
