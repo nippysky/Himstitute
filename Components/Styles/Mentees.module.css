@@ -1,0 +1,25 @@
+.section {
+    padding: 4rem;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.column {
+    width: 20%;
+}
+
+.smallDiv {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.smallDivCol {
+    width: 50%
+}

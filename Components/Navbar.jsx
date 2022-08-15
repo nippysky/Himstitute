@@ -30,6 +30,9 @@ export default function Navbar() {
         <span className={classes.menuItems}>
           <Link href="/careers">Careers</Link>
         </span>
+        <span className={classes.menuItems}>
+          <Link href="/membership">Membership</Link>
+        </span>
 
         {/* Navbar Button */}
         <div style={{ float: "right", marginTop: "-0.3rem" }}>

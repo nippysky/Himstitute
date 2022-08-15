@@ -1,4 +1,4 @@
-import classes from "../styles/AboutUs.module.css";
+import classes from "../styles/Pages.module.css";
 import PageHeader1 from "../Components/PageHeader1";
 import WhatWeOffer from "../Components/AboutUs/WhatWeOffer";
 import MVV from "../Components/AboutUs/MVV";
