@@ -5,7 +5,7 @@ export default function TeamMembers(props) {
   return (
     <div>
       <div>
-        <Image src={image} alt={name} width={300} height={300} />
+        <Image src={image} alt={name} width={500} height={500} />
       </div>
 
       <div style={{ display: "flex", width: "100%" }}>

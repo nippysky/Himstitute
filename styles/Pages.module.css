@@ -1,6 +1,6 @@
 .overview {
     padding: 0 4rem;
-    margin: 4rem 0
+    margin: 2rem 0 4rem
 }
 
 .overview h1 {
@@ -9,4 +9,11 @@
 
 .overview p {
     text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+    .overview {
+        padding: 0 2rem;
+        margin: 2rem 0 4rem;
+    }
 }

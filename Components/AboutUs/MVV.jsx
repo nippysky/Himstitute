@@ -1,7 +1,9 @@
 import classes from "../Styles/MVV.module.css";
 import Values from "./Values";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function MVV() {
+  const mobileView = useMediaQuery("(max-width:1000px)");
   return (
     <section className={classes.section}>
       <div className="custom-shape-divider-top-1659705770">
@@ -75,7 +77,10 @@ export default function MVV() {
           </div>
         </div>
 
-        <div style={{ padding: "0 8rem" }} className={classes.values}>
+        <div
+          style={mobileView ? { padding: "0 2rem" } : { padding: "0 8rem" }}
+          className={classes.values}
+        >
           <div className={classes.valueItems}>
             <Values
               image="/images/aboutus/circle.svg"

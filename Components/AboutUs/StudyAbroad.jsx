@@ -1,11 +1,16 @@
 import Image from "next/image";
 import ButtonWhite from "../ButtonWhite";
 import classes from "../Styles/WhatWeOffer.module.css";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function StudyAbroad() {
+  const mobileView = useMediaQuery("(max-width:1000px)");
   return (
     <section>
-      <div className={classes.row}>
+      <div
+        style={mobileView ? { flexDirection: "column-reverse" } : null}
+        className={classes.row}
+      >
         <div className={classes.column}>
           <h2>Study Abroad</h2>
           <p>
