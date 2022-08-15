@@ -1,5 +1,5 @@
 import ButtonWhite from "../ButtonWhite";
-import classes from "../Styles/BecomeAComrade.module.css";
+import classes from "../Styles/BecomeAMentor.module.css";
 import Image from "next/image";
 
 export default function BecomeAMentor() {
@@ -20,8 +20,8 @@ export default function BecomeAMentor() {
             <Image
               src="/images/homepage/Himstitute_Joinus.png"
               alt="Join Us"
-              width={400}
-              height={300}
+              width={500}
+              height={400}
             />
           </div>
         </div>

@@ -1,0 +1,29 @@
+.section {
+    padding: 4rem;
+    background-color: #E9F4EC;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap: 8rem;
+}
+
+.column {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        padding: 2rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

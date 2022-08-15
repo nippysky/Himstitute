@@ -23,3 +23,27 @@
 .smallDivCol {
     width: 50%
 }
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        padding: 2rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .smallDiv {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .smallDivCol {
+        width: 100%;
+    }
+}
