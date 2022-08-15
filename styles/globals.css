@@ -78,3 +78,78 @@ div {
 .spinner {
   display: none !important;
 }
+
+
+/* Mobile Classes */
+.menuLinks:hover {
+  border-bottom: 2px solid #1AD84F;
+  border-radius: 1px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.mobileNav {
+  background-color: #ffffff;
+  display: none;
+}
+
+.closeMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .menuLinks {
+    display: none;
+  }
+
+  .mobileNav {
+    z-index: 9999;
+    position: fixed;
+    inset: 0 0 0 50%;
+    right: 0;
+    background-color: #E9F4EC;
+    width: 50%;
+    height: 100vh;
+    color: #333;
+    font-weight: bolder;
+    flex-direction: column;
+    padding: 1rem;
+    animation-duration: 0.65s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .mobileLinks {
+    margin: 1.25rem 0;
+    font-size: 1rem;
+    font-weight: 550;
+  }
+
+  .mobileLinks:hover {
+    color: #1AD84F;
+  }
+
+  .closeMenu {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .hamburger,
+  .closeMenu {
+    display: block;
+    cursor: pointer;
+    font-size: 1.75rem;
+  }
+}

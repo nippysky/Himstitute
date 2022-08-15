@@ -25,12 +25,14 @@ export default function Share() {
         </div>
 
         <div className={classes.column}>
-          <Image
-            src="/images/homepage/Himstitute_Office.png"
-            alt="Himstitute Office"
-            width={500}
-            height={500}
-          />
+          <div style={{ float: "right" }}>
+            <Image
+              src="/images/homepage/Himstitute_Office.png"
+              alt="Himstitute Office"
+              width={500}
+              height={300}
+            />
+          </div>
         </div>
       </div>
     </section>
