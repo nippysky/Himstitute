@@ -20,3 +20,22 @@
     top: 0.65rem;
     margin: 0 1.5rem 0 0;
 }
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        padding: 2rem;
+    }
+
+    .section p {
+        text-align: justify;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

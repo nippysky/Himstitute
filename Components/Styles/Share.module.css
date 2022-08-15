@@ -13,3 +13,20 @@
     text-align: justify;
     width: 50%;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    .section {
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

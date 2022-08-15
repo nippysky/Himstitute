@@ -10,8 +10,10 @@ export default function Navbar() {
   return (
     <div className={classes.navRow}>
       {/* Navbar Logo */}
-      <div className={classes.navLogo}>
-        <h2>HIMSTITUTE</h2>
+      <div style={{ cursor: "pointer" }} className={classes.navLogo}>
+        <Link href="/">
+          <h2>HIMSTITUTE</h2>
+        </Link>
       </div>
 
       {/* Navbar Menu Links */}
@@ -77,7 +79,7 @@ export default function Navbar() {
         </div>
 
         <div className="mobileLinks">
-          <Link href="/aboutus">About Us</Link>
+          <Link href="/about-us">About Us</Link>
         </div>
 
         <div className="mobileLinks">

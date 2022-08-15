@@ -17,18 +17,20 @@ export default function Articles() {
         </p>
       </div>
 
-      <div className={classes.row}>
-        <div className={classes.column}>
-          <ArticlesCard />
-        </div>
-        <div className={classes.column}>
-          <ArticlesCard />
-        </div>
-        <div className={classes.column}>
-          <ArticlesCard />
-        </div>
-        <div className={classes.column}>
-          <ArticlesCard />
+      <div>
+        <div className={classes.row}>
+          <div className={classes.column}>
+            <ArticlesCard />
+          </div>
+          <div className={classes.column}>
+            <ArticlesCard />
+          </div>
+          <div className={classes.column}>
+            <ArticlesCard />
+          </div>
+          <div className={classes.column}>
+            <ArticlesCard />
+          </div>
         </div>
       </div>
 

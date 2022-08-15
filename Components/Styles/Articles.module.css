@@ -23,3 +23,19 @@
 .btn {
     text-align: center;
 }
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        padding: 2rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 4rem;
+        padding: 0 10%;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

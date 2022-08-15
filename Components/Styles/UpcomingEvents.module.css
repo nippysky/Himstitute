@@ -71,3 +71,18 @@
     position: relative;
     top: 2px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        padding: 2rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

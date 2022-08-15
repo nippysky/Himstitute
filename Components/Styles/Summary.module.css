@@ -25,3 +25,23 @@
 .sumColumn p {
     text-align: justify;
 }
+
+@media only screen and (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .coluumn {
+        width: 100%;
+    }
+
+    .sumRow {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .sumColumn {
+        width: 100%;
+    }
+}
