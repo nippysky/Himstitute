@@ -85,4 +85,15 @@
     .column {
         width: 100%;
     }
+
+    .parent {
+        flex-direction: column;
+    }
+
+    .child2 {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: -15rem;
+    }
 }
